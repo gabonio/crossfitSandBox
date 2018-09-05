@@ -23,7 +23,7 @@ public class FactoryTest{
     @Test
     public void buildNewWod()
     {
-        WOD testWod = WODfactory.getWod(60,false);
+        WOD testWod = WODfactory.getWod("testWod",60,false);
         assertNotNull(testWod);
     }
 

@@ -1,6 +1,6 @@
 package crossfitSandbox.data.enums;
 
-public enum CooldownExcercises {
+public enum CooldownExercises {
     STRETCH,
     FOAM_ROLLER,
     LACROSS_BALL

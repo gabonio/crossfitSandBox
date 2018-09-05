@@ -1,6 +1,6 @@
 package crossfitSandbox.data.enums;
 
-public enum ConditioningExcercises {
+public enum ConditioningExercises {
     RUN,
     SPRINT,
     ROW,

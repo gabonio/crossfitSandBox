@@ -1,6 +1,6 @@
 package crossfitSandbox.data.enums;
 
-public enum StrengthExcercises {
+public enum StrengthExercises {
     DEADLIFT,
     SHOULDER_PRESS,
 }

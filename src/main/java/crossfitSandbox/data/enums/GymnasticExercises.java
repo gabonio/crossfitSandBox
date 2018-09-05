@@ -1,6 +1,6 @@
 package crossfitSandbox.data.enums;
 
-public enum GymnasticExcercises {
+public enum GymnasticExercises {
     PULL_UP,
     BAR_MUSCLE_UP,
     RING_MUSCLE_UP,

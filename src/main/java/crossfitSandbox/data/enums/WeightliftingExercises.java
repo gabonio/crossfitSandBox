@@ -1,6 +1,6 @@
 package crossfitSandbox.data.enums;
 
-public enum WeightliftingExcercises {
+public enum WeightliftingExercises {
     MUSCLE_CLEAN,
     POWER_CLEAN,
     SQUAT_CLEAN,

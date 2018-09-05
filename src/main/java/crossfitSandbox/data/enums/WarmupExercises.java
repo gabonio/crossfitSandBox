@@ -1,6 +1,6 @@
 package crossfitSandbox.data.enums;
 
-public enum WarmupExcercises {
+public enum WarmupExercises {
     STRETCH,
     JUMPING_JACKS,
     HOLLOW_ROCK,
