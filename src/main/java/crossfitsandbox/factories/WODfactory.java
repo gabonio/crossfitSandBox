@@ -1,6 +1,6 @@
-package crossfitSandbox.factories;
+package crossfitsandbox.factories;
 
-import crossfitSandbox.entities.WOD;
+import crossfitsandbox.entities.WOD;
 
 public class WODfactory {
 

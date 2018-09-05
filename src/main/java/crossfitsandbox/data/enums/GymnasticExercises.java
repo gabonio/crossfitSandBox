@@ -1,4 +1,4 @@
-package crossfitSandbox.data.enums;
+package crossfitsandbox.data.enums;
 
 public enum GymnasticExercises {
     PULL_UP,

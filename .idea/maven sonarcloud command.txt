@@ -1,0 +1,1 @@
+sonar:sonar \   -Dsonar.projectKey=gabonio_crossfitSandbox \   -Dsonar.organization=gabonio-github \   -Dsonar.host.url=https://sonarcloud.io \   -Dsonar.login=60a3bbe3698a0d264bb912100806c314843c3951

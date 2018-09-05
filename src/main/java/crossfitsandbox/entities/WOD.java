@@ -1,13 +1,11 @@
-package crossfitSandbox.entities;
+package crossfitsandbox.entities;
 
-import crossfitSandbox.data.enums.*;
+import crossfitsandbox.data.enums.*;
 
 import java.util.List;
 import java.util.logging.Logger;
 
 public class WOD {
-
-    private final Logger logger;
 
     private String name;
     private int timecapInMinutes;
@@ -21,7 +19,8 @@ public class WOD {
 
     public WOD() {
 
-        this.logger =  Logger.getLogger(this.getClass().getName());
+        Logger logger = Logger.getLogger(this.getClass().getName());
+        this.name = "";
     }
 
     public WOD(String name, int timecapInMinutes, boolean isHeroWod) {
@@ -34,7 +33,7 @@ public class WOD {
     }
 
 
-    public double getTimecapInMinutes() {
+    public int getTimecapInMinutes() {
         return timecapInMinutes;
     }
 
