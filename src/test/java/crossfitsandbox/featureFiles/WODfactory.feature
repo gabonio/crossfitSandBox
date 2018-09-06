@@ -6,6 +6,6 @@ Feature: Generate a new WOD
     And is NOT a Hero WOD
     And the WOD is 60 minutes long
 
-    Then the new wod must be named "BasicWod"
-    And the new wod must be 60 minutes long
-    And it must NOT be a hero WOD
+    Then the new WOD must be named "BasicWod"
+    And the new WOD must be 60 minutes long
+    And the new WOD must NOT be a hero WOD

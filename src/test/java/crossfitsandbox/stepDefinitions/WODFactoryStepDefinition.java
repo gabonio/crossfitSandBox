@@ -47,22 +47,22 @@ public class WODFactoryStepDefinition
         assert wod.getName().equals(arg0);
     }
 
-    @And("^the new wod must be (\\d+) minutes long$")
+    @And("^the new WOD must be (\\d+) minutes long$")
     public void theNewWodMustBeMinutesLong(int arg0) {
 
         assert wod != null;
         assert wod.getTimecapInMinutes() == arg0;
     }
 
-    @And("^it must NOT be a hero WOD$")
-    public void itMustNOTBeAHeroWOD() {
+    @And("^the new WOD must NOT be a hero WOD$")
+    public void theNewWodMustNOTBeAHeroWOD() {
 
         assert wod != null;
         assert !wod.isHeroWod();
     }
 
-    @And("^it must be a hero WOD$")
-    public void itMustBeAHeroWOD() {
+    @And("^the new WOD must be a hero WOD$")
+    public void theNewWodMustBeAHeroWOD() {
 
         assert wod != null;
         assert wod.isHeroWod();
